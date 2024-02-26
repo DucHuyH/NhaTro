@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="10dp"
+        android:text="Đăng Kí"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="247dp"
+        android:layout_height="244dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/download" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="303dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint=" Email"
+        app:backgroundTint="@null"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="303dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint=" Password"
+        app:backgroundTint="@null"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_forgotPassword"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_button"
+        android:text="Quên mật khẩu"
+        android:textColor="@color/black"
+        app:backgroundTint="@null"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_signIn"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button_signin"
+        android:text="Đăng Nhập"
+        android:textColor="#5E5E5E"
+        android:textSize="20dp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button_signin"
+        android:text="Đăng nhập với Gmail "
+        android:textColor="#5E5E5E"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        app:backgroundTint="@null"  />
+
+</LinearLayout>
